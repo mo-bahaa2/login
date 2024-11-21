@@ -1,0 +1,34 @@
+
+
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com/" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Nunito+Sans:ital,opsz,wght@0,6..12,200..1000;1,6..12,200..1000&display=swap" rel="stylesheet">    <link rel="stylesheet" href="./css/bootstrap.min.css">
+    <link rel="stylesheet" href="./css/style.css">
+    <title>login</title>
+</head>
+<body>
+    <div class=" container p-5 my-5 bg-body-secondary  text-center">
+        <h1 class=" mb-3 text-center">Smart Login System</h1>
+        <div class="row">
+            <div class="col-md-12">
+                <div class="formLogin">
+                    <input type="text" class=" form-control text-white" placeholder="Enter your name" id="nameSgin">
+                    <input type="email" class=" my-3 form-control text-white" placeholder="Enter your email" id="emailSgin">
+                    <input type="password" class=" form-control text-white" placeholder="Enter your password" id="passSgin">
+                    <p class=" my-3 mb-0 text-capitalize" id="exist"></p>
+                    <button id="signupButton" onclick="addSignupForm() " class=" btn btn-outline-info w-100 mt-4 text-capitalize">sign up</button>
+                    <span class="text-white mt-3 d-block">You have an account? <a href="./index.html" class=" text-white">Signin</a> </span>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- js -->
+    <script src="./js/bootstrap.bundle.min.js"></script>
+    <script src="./js/index.js"></script>
+</body>
+</html>
