@@ -1,0 +1,103 @@
+/* Modern Gradient Background */
+body {
+    background: linear-gradient(135deg, #e0eafc, #cfdef3);
+    min-height: 100vh;
+    font-family: "Nunito Sans", sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+/* Neumorphic Card Styling */
+.card {
+    background: rgba(255, 255, 255, 0.9);
+    border: none;
+    border-radius: 20px;
+    box-shadow: 8px 8px 15px rgba(0, 0, 0, 0.1), -8px -8px 15px rgba(255, 255, 255, 0.7);
+    padding: 2rem;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.card:hover {
+    transform: translateY(-5px);
+    box-shadow: 12px 12px 20px rgba(0, 0, 0, 0.15), -12px -12px 20px rgba(255, 255, 255, 0.8);
+}
+
+.card h1 {
+    color: #333;
+    font-weight: 700;
+    margin-bottom: 1.5rem;
+}
+
+/* Form Inputs */
+.form-control {
+    background: rgba(255, 255, 255, 0.8);
+    border: 1px solid #ddd;
+    border-radius: 10px;
+    color: #333;
+    transition: border-color 0.3s ease, box-shadow 0.3s ease;
+    margin-bottom: 1rem;
+    padding: 0.75rem;
+}
+
+.form-control:focus {
+    border-color: #17a2b8;
+    box-shadow: 0 0 8px rgba(23, 162, 184, 0.3);
+}
+
+.form-control::placeholder {
+    color: #999;
+    opacity: 0.8;
+}
+
+/* Buttons */
+.btn-info {
+    background-color: #17a2b8;
+    border: none;
+    border-radius: 10px;
+    color: #fff;
+    transition: all 0.3s ease;
+    padding: 0.75rem;
+    font-weight: 600;
+}
+
+.btn-info:hover {
+    background-color: #0d6efd;
+    transform: translateY(-2px);
+}
+
+.btn-outline-warning {
+    color: #ffc107;
+    border-color: #ffc107;
+    border-radius: 10px;
+    transition: all 0.3s ease;
+}
+
+.btn-outline-warning:hover {
+    background-color: #ffc107;
+    color: #000;
+    transform: translateY(-2px);
+}
+
+/* Links */
+a {
+    color: #17a2b8;
+    text-decoration: none;
+    transition: color 0.3s ease;
+}
+
+a:hover {
+    color: #0d6efd;
+    text-decoration: underline;
+}
+
+/* Responsive Adjustments */
+@media (max-width: 768px) {
+    .card {
+        width: 90% !important;
+        padding: 1.5rem;
+    }
+
+    h1 {
+        font-size: 24px;
+    }
+}

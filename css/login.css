@@ -1,0 +1,36 @@
+body{
+    background-color: #24353F;
+}
+
+.container{
+    background-color: #24353F !important;
+    box-shadow: -5px 2px 54px -9px rgba(0, 0, 0, 1);
+    width: 55%;
+}
+
+h1{
+    color: #17a2b8;
+    font-family:"Nunito Sans", serif;
+}
+
+input{
+    background-color: transparent !important;
+}
+
+input::placeholder {
+    color: #ced4da !important;
+    opacity: 0.5; 
+    
+}
+
+.form-control:focus{
+    box-shadow: none;
+}
+
+.formLogin span a{
+    text-decoration: none;
+}
+
+.formLogin span a:hover{
+    text-decoration: underline;
+}

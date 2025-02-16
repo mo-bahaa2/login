@@ -1,0 +1,38 @@
+/* Home Page Specific Styles */
+nav {
+    background-color: #24353F !important;
+    box-shadow: -5px 2px 54px -9px rgba(0, 0, 0, 1);
+}
+
+button {
+    color: rgba(255, 255, 255, 0.5) !important;
+    transition: all 0.3s ease;
+}
+
+button:hover {
+    color: #fff !important;
+    background-color: #17a2b8;
+}
+
+.group {
+    box-shadow: -5px 2px 54px -9px rgba(0, 0, 0, 1);
+    padding: 20px;
+    border-radius: 10px;
+}
+
+h1 {
+    color: #17a2b8;
+    font-size: 2.5rem;
+    font-weight: 600;
+}
+
+/* Responsive Adjustments */
+@media (max-width: 768px) {
+    h1 {
+        font-size: 2rem;
+    }
+
+    .group {
+        width: 90%;
+    }
+}
